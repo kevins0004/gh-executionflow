@@ -9,10 +9,10 @@ function MainContent() {
     setHelpVisible((isVisible) => !isVisible);
   }
 
-  return 
+  return (
     <main>
       <button onClick={toggleHelp}>{helpVisible ? 'Hide' : 'Show'} Help</button>
-      {helpVisible && <HelpArea />}
+      {helpVisible && <HelpAre />}
     </main>
   );
 }
